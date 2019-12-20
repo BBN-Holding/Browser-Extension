@@ -4,7 +4,7 @@ chrome.browserAction.onClicked.addListener(function() {
         active: true
     }, function(tab) {
         chrome.tabs.create({
-            "url": "http://bigbotnetwork.com"
+            "url": "https://bigbotnetwork.com"
         });
     });
 });
