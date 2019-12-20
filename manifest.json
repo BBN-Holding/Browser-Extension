@@ -1,9 +1,16 @@
 {
+  "name": "BigBotNetwork",
+  "version": "1.0",
   "manifest_version": 2,
 
-  "name": "BigBotNetwork",
   "description": "The official BigBotNetwork browser extension.",
-  "version": "1.0",
+  "developer": {
+    "name": "GregTCLTK",
+    "url": "https://github.com/GregTCLTK"
+  },
+  "default_locale": "en",
+  "homepage_url": "https://bigbotnetwork.com/",
+
   "background": {
     "scripts": ["background.js"]
   },
