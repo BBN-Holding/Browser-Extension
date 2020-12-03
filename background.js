@@ -1,5 +1,5 @@
 var netflixcode = `
-document.getElementById("title").children[0].innerText = "Netflix Party (BBN)"; 
+document.getElementById("title").children[0].innerText = "Netflix Party"; 
 document.getElementById("teleparty-blog-btn").children[0].src = "https://www.bigbotnetwork.com/images/avatar.png";
 document.getElementById("teleparty-blog-btn").children[1].innerText = "Join Our Discord";
 document.getElementById("teleparty-blog-btn").children[1].style.background = "#7289DA";

@@ -1,20 +1,22 @@
 {
-  "name": "BigBotNetwork",
-  "version": "1.0",
+  "name": "BBN Patcher",
+  "version": "0.1",
   "manifest_version": 2,
-  "description": "The official BigBotNetwork browser extension.",
+  "description": "The official BBN browser extension.",
   "homepage_url": "https://bigbotnetwork.com/",
   "background": {
     "scripts": [
       "background.js"
-    ]
+    ],
+    "persistent": false
   },
   "permissions": [
     "tabs",
-    "activeTab"
+    "activeTab",
+    "declarativeContent"
   ],
   "browser_action": {
     "default_icon": "icon.png",
-    "default_title": "BigBotNetwork"
+    "default_title": "BBN"
   }
 }
