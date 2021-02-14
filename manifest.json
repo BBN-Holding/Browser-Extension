@@ -3,7 +3,7 @@
   "version": "0.1",
   "manifest_version": 2,
   "description": "The official BBN browser extension.",
-  "homepage_url": "https://bigbotnetwork.com/",
+  "homepage_url": "https://bbn.one/",
   "background": {
     "scripts": [
       "background.js"
